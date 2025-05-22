@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindGames - Challenge Your Brain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Levels.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <h1>MindGames</h1>
+            </div>
+            <div class="nav-sec2">
+                <button class="nav-btn">
+                    <i class="fas fa-list"></i>
+                    <span>More Levels</span>
+                </button>
+                <button class="nav-btn">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Help</span>
+                </button>
+                <button class="nav-btn">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </button>
+                <button class="nav-btn user-btn">
+                    <i class="fas fa-user"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="game-container">
+            <div class="levels">
+                <div class="level level1" data-level="1">
+                    <div class="level-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <a href="Level1.html"><div class="level-info">
+                        <h3>Lvl.1</h3>
+                        <p>Snake Game</p>
+                    </div></a>
+                    <div class="level-badge">New</div>
+                </div>
+                
+                <div class="level level2" data-level="2">
+                    <div class="level-icon">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <div class="level-info">
+                        <h3>Lvl.2</h3>
+                        <p>Memory Challenge</p>
+                    </div>
+                    <div class="level-badge locked">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                
+                <div class="level level3" data-level="3">
+                    <div class="level-icon">
+                        <i class="fas fa-chess"></i>
+                    </div>
+                    <div class="level-info">
+                        <h3>Lvl.3</h3>
+                        <p>Strategic Thinking</p>
+                    </div>
+                    <div class="level-badge locked">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                
+                <div class="level level4" data-level="4">
+                    <div class="level-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="level-info">
+                        <h3>Lvl.4</h3>
+                        <p>Logic Puzzles</p>
+                    </div>
+                    <div class="level-badge locked">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                
+                <div class="level level5" data-level="5">
+                    <div class="level-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="level-info">
+                        <h3>Lvl.5</h3>
+                        <p>Expert Mode</p>
+                    </div>
+                    <div class="level-badge locked">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-footer">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 20%;"></div>
+                    </div>
+                    <span>20% Complete</span>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span>125 Points</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Bronze Rank</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="logic.js"></script>
+</body>
+</html>

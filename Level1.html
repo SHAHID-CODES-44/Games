@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Level1.css">
+    <title>Level 01</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-name">Level 01 Snake Game</h1>
+        <canvas class="game-canvas"></canvas>
+        <p class="game-points">Score: 0</p>
+    </div>
+    
+    <div class="controls">
+        <button onclick="restartGame()">🔁 Restart</button>
+        <button id="themeToggle"> Light Mode</button>
+    </div>
+
+    <div class="touch-controls">
+        <div class="row">
+            <button data-direction="up">&#8593;</button>
+        </div>
+        <div class="row">
+            <button data-direction="left">&#8592;</button>
+            <button data-direction="down">&#8595;</button>
+            <button data-direction="right">&#8594;</button>
+        </div>
+    </div>
+    <script src="Level1.js"></script>
+</body>
+</html>
